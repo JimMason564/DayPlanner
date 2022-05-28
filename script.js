@@ -9,7 +9,7 @@ $(".time-block").each(function() {
     let blockHour = parseInt($(this).attr("id").split("-")[1])
 if (blockHour < currentTime ) {
     $(this).addClass("past");
-} else if (currentTime == blockHour) {
+} else if (currentTime === blockHour) {
     $(this).removeClass("past");
     $(this).addClass("present");
 } else { 
