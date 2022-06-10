@@ -1,4 +1,4 @@
-$("#currentDay").text(moment().format("dddd, MMM Do"));
+$("#currentDay").text(moment().format("dddd, MMMM Do YYYY"));
 
 var shownTime = document.querySelector("data-hour")
 
